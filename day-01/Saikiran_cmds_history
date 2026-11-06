@@ -1,0 +1,47 @@
+azureuser@Saikiran:~$ history
+    1  docker ps
+    2  hostory
+    3  history
+    4  docker ps
+    5  history
+    6  exit
+    7  clear
+    8  docker ps
+    9  sudo docker run -dit --name test-app ubuntu bash
+   10  docker ps
+   11  docker stop 828667df3ad6
+   12  docker ps
+   13  docker ps -al
+   14  docker start ubuntu
+   15  docker start test-app
+   16  docker ps
+   17  docker restart 828667df3ad6
+   18  docker ps
+   19  sudo apt update
+   20  sudo apt install nginx -y
+   21  nigix v
+   22  nginx -v
+   23  sudo systemctl status nginx
+   24  curl -s localhost:80
+   25  my ipcongig
+   26  curl ifcongig.me
+   27  curl ifconfig.me
+   28  docker run -d -name saikiranserver -p 5000:80 nginx
+   29  docker run -d --name saikiranserver -p 5000:80 nginx
+   30  docker ps
+   31  docker logs f3998b8a95a4
+   32  docker inspect f3998b8a95a4
+   33  sudo docker run -d --name app1 -p 127.0.0.1:3001:80 httpd
+   34  sudo docker run -d --name app2 -p 127.0.0.1:3002:80 httpd
+   35  docker ps
+   36  curl localhost:3001
+   37  curl localhost:3002
+   38  sudo docker exec app1 sh -c 'echo "<h1>Welcome to Application 1</h1>" > /usr/local/apache2/htdocs/index.html'
+   39  sudo docker exec app2 sh -c 'echo "<h1>Welcome to Application 2</h1>" > /usr/local/apache2/htdocs/index.html'
+   40  curl localhost:3001
+   41  curl localhost:3002
+   42  sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
+   43  sudo nano /etc/nginx/sites-available/default
+   44  sudo systemctl restart nginx
+   45  history
+azureuser@Saikiran:~$ 
